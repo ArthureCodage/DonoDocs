@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/DonoDocs/',
   optimizeDeps: {
-    exclude: ['lucide-react'],
+    exclude: ['lucide-react']
   },
 });
